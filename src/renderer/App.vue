@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <search-bar></search-bar>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import SearchBar from "./components/SearchBar";
+import API from "./lib/API";
 export default {
   name: "electron-vue-weather",
-  components: { SearchBar },
+  components: {},
 };
 </script>
 
